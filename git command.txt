@@ -1,0 +1,17 @@
+1.Buat Repo di git, kemudian copy+paste pada URL https 
+
+2. Arahkan pada folder project, kemudian klik kanan dan pilih GIT BASH HERE
+
+3. Konfigurasi Git :
+git config --global user.name "galih18"
+git config --global user.email "galihsetiana@gmail.com"
+
+4.git init
+
+5.git remote add origin https://github.com/Galih18/nusaedu-akademi.git(copy+paste pada URL https)
+
+6. git add *  (untuk menambahkan semua file ke repo)
+
+7. git commit -m "pesan anda masukkan disini utuk commit"
+
+8. git push origin master
