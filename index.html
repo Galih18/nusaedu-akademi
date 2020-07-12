@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Nusaedu Akademi</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="row navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/logo.png" alt="logo nusaedu">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link active">Beranda</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Harga</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Fitur</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Partners</a>
+                    </li>
+                </ul>
+                <!-- Mobile Button -->
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Masuk
+                    </button>
+                </form>
+
+                <!-- Desktop Button -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Masuk
+                    </button>
+                </form>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- bagian header -->
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 align-self-center">
+                    <h1 class="mb-4">
+                        <span style="color: blue;">Bangun Skill</span> Anda <br> dimulai dari sini
+                    </h1>
+                    <p class="mb-4">
+                        Belajar animasi dan design dengan mudah <br> dibimbing sampai bisa dan dibutuhkan oleh dunia industri
+                    </p>
+                    <a href="#" class="btn btn-ikut-kelas px-4 mt-4">
+                        Ikut Kelas 
+                    </a>
+                </div>
+                <div class="col-lg-5 mb-2 align-self-stretch">
+                    <img src="frontend/images/hero2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- bagian Kelas Populer -->
+    <section class="section-populer" id=populer>
+        <div class="container">
+            <div class="row justify-content-center justify-content-lg-center justify-content-md-center justify-content-sm-center">
+                <span class="judul">Kelas Terbaru</span>
+            </div>
+            <div class="row justify-content-center">
+                <div class="card px-1 py-3 text-left d-flex flex-column" style="width: 14rem;">
+                    <img src="frontend/images/animasi3d.png" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Animasi 3D (Rigging)
+                        </h5>
+                        <div class="row">
+                            <div class="col align-self-center">
+                                <p class="card-text">Untuk pemula</p>
+                            </div>
+                            <div class="col justify-content-end">
+                                <span class="badge-premium badge-info">PREMIUM</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="harga">Rp.250.000</p>
+                        <a href="kelas_detail.html" div class="btn-ikut-kursus btn-block"> Pilih Kelas</a></div>
+                </div>
+                <div class="card text-left px-1 py-3 text-left d-flex flex-column" style="width: 14rem;">
+                    <img src="frontend/images/videograpi.png" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Videography (Vlogger)
+                        </h5>
+                        <div class="row">
+                            <div class="col align-self-center">
+                                <p class="card-text">Untuk pemula</p>
+                            </div>
+                            <div class="col justify-content-end">
+                                <span class="badge-premium badge-info">PREMIUM</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="harga">Rp.350.000</p>
+                        <a href="kelas_detail.html" div class="btn-ikut-kursus btn-block"> Pilih Kelas</a></div>
+                </div>
+                <div class="card text-left px-1 py-3 text-left d-flex flex-column" style="width: 14rem;">
+                    <img src="frontend/images/figma.png" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            UI/UX Design (Figma)
+                        </h5>
+                        <div class="row">
+                            <div class="col align-self-center">
+                                <p class="card-text">Untuk pemula</p>
+                            </div>
+                            <div class="col justify-content-end">
+                                <span class="badge-gratis badge-info">GRATIS</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="harga">Rp.0</p>
+                        <a href="kelas_detail.html" div class="btn-ikut-kursus btn-block"> Pilih Kelas</a></div>
+                </div>
+                <div class="card text-left px-1 py-3  text-left d-flex flex-column" style="width: 14rem;">
+                    <img src="frontend/images/git.png" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Pengenalan Git Versioning (Gitlab)
+                        </h5>
+                        <div class="row">
+                            <div class="col align-self-center">
+                                <p class="card-text">Untuk pemula</p>
+                            </div>
+                            <div class="col justify-content-end">
+                                <span class="badge-gratis badge-info">GRATIS</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="harga">Rp.0</p>
+                        <a href="kelas_detail.html" div class="btn-ikut-kursus btn-block"> Pilih Kelas</a></div>
+                </div>
+                <div class="card text-left px-1 py-3 text-left d-flex flex-column" style="width: 14rem;">
+                    <img src="frontend/images/figma.png" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            UI/UX Design (Figma)
+                        </h5>
+                        <div class="row">
+                            <div class="col align-self-center">
+                                <p class="card-text">Untuk pemula</p>
+                            </div>
+                            <div class="col justify-content-end">
+                                <span class="badge-gratis badge-info">GRATIS</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="harga">Rp.0</p>
+                        <a href="kelas_detail.html" div class="btn-ikut-kursus btn-block"> Pilih Kelas</a></div>
+                </div>
+                <div class="card text-left px-1 py-3 text-left d-flex flex-column" style="width: 14rem;">
+                    <img src="frontend/images/ai.png" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Adobe Illustrator (AI)
+                        </h5>
+                        <div class="row">
+                            <div class="col align-self-center">
+                                <p class="card-text">Untuk pemula</p>
+                            </div>
+                            <div class="col justify-content-end">
+                                <span class="badge-premium badge-info">PREMIUM</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="harga">Rp.450.000</p>
+                        <a href="kelas_detail.html" div class="btn-ikut-kursus btn-block"> Pilih Kelas</a></div>
+                </div>
+                <div class="card text-left px-1 py-3 text-left d-flex flex-column" style="width: 14rem;">
+                    <img src="frontend/images/seo.png" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Digital Marketing (SEO & SEM)
+                        </h5>
+                        <div class="row">
+                            <div class="col align-self-center">
+                                <p class="card-text">Untuk pemula</p>
+                            </div>
+                            <div class="col justify-content-end">
+                                <span class="badge-premium badge-info">PREMIUM</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="harga">Rp.550.000</p>
+                        <a href="kelas_detail.html" div class="btn-ikut-kursus btn-block"> Pilih Kelas</a></div>
+                </div>
+                <div class="card text-left px-1 py-3  text-left d-flex flex-column" style="width: 14rem;">
+                    <img src="frontend/images/cw.png" class="card-img-top" alt="card image">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Copywriting Content
+                        </h5>
+                        <div class="row">
+                            <div class="col align-self-center">
+                                <p class="card-text">Untuk pemula</p>
+                            </div>
+                            <div class="col justify-content-end">
+                                <span class="badge-gratis badge-info">GRATIS</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="harga">Rp.0</p>
+                        <a href="kelas_detail.html" div class="btn-ikut-kursus btn-block"> Pilih Kelas</a></div>
+                </div>
+            </div>
+            <!-- pagination -->
+            <div class="row mt-5 justify-content-center justify-content-lg-center justify-content-md-center justify-content-sm-center">
+                <div class="pagination">
+                    <nav aria-label="...">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active">
+                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Akhirpagination -->
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- akhir bagian populer -->
+
+    <!-- bagian dukungan kami -->
+    <div class="row justify-content-center">
+        <div class="judul">Dukungan Kami</div>
+    </div>
+    <section class="section-dukungan-kami">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="kolom">
+                    <img src="frontend/images/pesawat.png" alt="">
+                    <p>Setiap siswa tergabung ke dalam grup private (telegram)</p>
+                </div>
+                <div class="kolom">
+                    <img src="frontend/images/youtube.png" alt="">
+                    <p>Materi dalam bentuk format video kualitas HD</p>
+                </div>
+                <div class="kolom">
+                    <img src="frontend/images/community.png" alt="">
+                    <p>Dukungan dari komunitas skala nasional</p>
+                </div>
+                <div class="kolom">
+                    <img src="frontend/images/relasi.png" alt="">
+                    <p>Membantu siswa untuk disalurkan ke perusahaan industri kreatif (Talent Hunter)</p>
+                </div>
+                <div class="kolom">
+                    <img src="frontend/images/sertifikat.png" alt="">
+                    <p>Tersedia sertifikat untuk kelulusan kelas</p>
+                </div>
+                <div class="kolom">
+                    <img src="frontend/images/konsultasi.png" alt="">
+                    <p>Dukungan konsultasi dengan mentor masing-masing kelas</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- bagian Kategori Kelas -->
+    <div class="row justify-content-center">
+        <div class="judul">Kategori Kelas</div>
+    </div>
+    <section class="kategori-kelas">
+        <div class="container">
+            <div class="row justify-content-center">
+                <a href="#" class="box">
+                    <img src="frontend/images/grafik2.png" alt="icon"><br>
+                    <p style="text-decoration: none;">Graphic Design</p>
+                </a>
+                <a href="#" class="box">
+                    <img src="frontend/images/game2.png" alt="icon"><br>
+                    <p style="text-decoration: none;">Game Development</p>
+                </a>
+                <a href="#" class="box">
+                    <img src="frontend/images/mobile.png" alt="icon"><br>
+                    <p style="text-decoration: none;">Mobile Development</p>
+                </a>
+                <a href="#" class="box">
+                    <img src="frontend/images/animasi.png" alt="icon"><br>
+                    <p style="text-decoration: none;">Animation Class</p>
+                </a>
+                <a href="#" class="box">
+                    <img src="frontend/images/webicon.png" alt="icon"><br>
+                    <p style="text-decoration: none;">Web Development</p>
+                </a>
+                <a href="#" class="box">
+                    <img src="frontend/images/dm.png" alt="icon"><br>
+                    <p style="text-decoration: none;">Digital Marketing</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- bagian Akhir Kategori Kelas -->
+
+    <!-- Bagian awal Jaringan Kami -->
+    <div class="row justify-content-center">
+        <div class="judul">Jaringan Kami</div>
+    </div>
+    <section class="dukungan-kami">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="patner">
+                    <img src="frontend/images/itb.png" alt="">
+                    <img src="frontend/images/kemenperin.png" alt="">
+                    <img src="frontend/images/cimahi.png" alt="">
+                    <img src="frontend/images/upi.png" alt="">
+                    <img src="frontend/images/telkom.png" alt="">
+                    <img src="frontend/images/ainaki.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Dukungan kami -->
+
+    <!-- awal Event -->
+    <div class="row justify-content-center">
+        <div class="judul">Berita</div>
+    </div>
+    <section class="events">
+        <div class="container">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-lg-7">
+                        <div class="video-container">
+                            <iframe width="460" height="215" src="https://www.youtube.com/embed/nUTgHHJFiKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <h3>Seminar UI/UX DEsign di Bandung</h3> <br>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae voluptates praesentium laborum, suscipit iste tempora harum necessitatibus, ex distinctio ratione, repudiandae sunt? Aliquam voluptates fuga enim, unde voluptatem
+                            doloremque magnam. Corrupti, qui temporibus? Qui, velit delectus. Excepturi optio obcaecati, quam impedit minus dolorem ipsum modi et, cupiditate natus a laborum.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col col-lg-7 mb-5 align-self-center d-flex">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nUTgHHJFiKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col col-lg-5 mb-5 mt-3 align-self-center">
+                    <h3>Seminar Pembelajaran UI/UX Designer Bagi Pemula</h3> <br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi inventore dolore quidem, quisquam facere ducimus qui neque quas itaque nulla labore iusto ea vitae accusantium incidunt distinctio laudantium quod soluta quae porro quia
+                        beatae blanditiis architecto a! Sint rem, aspernatur debitis recusandae saepe odit sapiente dignissimos! Ad necessitatibus vero delectus.</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Awal footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>Bantuan</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Cara Ikut Kelas</a></li>
+                                <li><a href="#">Kebijakan & Privasi</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>Informasi</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Kelas Terbaru</a></li>
+                                <li><a href="#">Partners</a></li>
+                                <li><a href="#">Cara Daftar</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>Kantor</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Sucore Blok L.22</a></li>
+                                <li><a href="#">Bandung, Pasirlayung</a></li>
+                                <li><a href="#">admin@nusaedu.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>Media Sosial</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Youtube</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center pb-3">
+                <div class="col-auto text-grey-500 font-weight-bold">
+                    2020 Copyright Nusaedu
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src=" frontend/libraries/jquery/jquery-3.5.1.min.js "></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.min.js "></script>
+
+</body>
+
+</html>
